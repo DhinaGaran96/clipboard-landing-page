@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Clipboard landing page</title>
+
+ 
+  <style>
+   *{
+    margin:0px;
+    padding:0px;
+   }
+
+   body{
+    background-image: url('images/bg-header-desktop.png');
+    background-repeat: no-repeat;
+   }
+   .header{
+    height: 50%;
+    width: 100%;
+    text-align: center;
+    color: hsl(210, 10%, 33%);
+   }
+   .copyright{
+    font-size: 80px;
+    color: hsl(171, 66%, 44%);
+    margin-top: 50px;
+   }
+   .header pre{
+    margin-top: 10px;
+    font-size: 11px;
+
+   }
+
+   .buttons{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12px;
+   }
+
+   .button1{
+    border-radius: 30px;
+    padding: 10px 20px;
+    background-color:  hsl(171, 66%, 44%);
+    border: none;
+    margin-right: 5px;
+    color: white;
+   }
+
+   .button2{
+    border-radius: 30px;
+    padding: 10px 20px;
+    border: none;
+    background-color: hsl(233, 100%, 69%);
+    margin-left: 5px;
+    color: white;
+   }
+
+   .section{
+    margin-top: 80px;
+    text-align: center;
+    color: hsl(210, 10%, 33%);
+   }
+   .details-1,.details-2,.details-3 h3{
+    color:hsl(210, 10%, 33%);
+   }
+
+   .section pre{
+    margin-top: 10px;
+    font-size: 10px;
+   }
+
+   .section1{
+    margin-top: 50px;
+   }
+
+   .section1 img{
+    display: block;
+    float: left;
+   }
+
+   .section1 div{
+    display: inline-block;
+    margin-left: 80px;
+    margin-top: 50px;
+    text-align: left;
+   }
+   .details-1{
+    margin-top: 10px;
+   }
+
+   .section1 div pre{
+    margin-top: 20px;
+   }
+   .section2{
+    margin-top:25%;
+    text-align: center;
+    
+   }
+   .section2 pre{
+    padding-top: 20px;
+
+   }
+   .section2 ,.section3 ,.clipboard h1{
+    color:hsl(210, 10%, 33%);
+   }
+   .section2 img{
+    padding-top: 60px;
+   }
+   .section3{
+    margin-top: 100px;
+    text-align: center;
+   }
+   .section3 p{
+    padding-top: 20px;
+   }
+   .detail{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+
+
+  
+   }
+   .blacklists{
+    margin-top:30px;
+    margin-right:20px;
+    padding:10px;
+    width:25%;
+    
+   }
+   .plain{
+    margin-top:30px;
+    margin-right:20px;
+    padding:10px;
+    width:25%;
+  
+   }
+   .sneak{
+    margin-top:30px;
+    margin-right:20px;
+    padding:10px;
+    width:25%;
+    
+   }
+   .detail h2{
+    margin-top: 10px;
+   }
+   .company{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+   }
+   .company img{
+    margin:30px;
+
+   }
+   .clipboard{
+    margin-top:70px;
+    text-align: center;
+     }
+     .clipboard pre{
+      padding-top:20px;
+      padding-bottom: 20px;
+     }
+     
+     .footer{
+      height:auto;
+      width:100%;
+      display: flex;
+      justify-content: center;
+      margin-top: 100px;
+      background-color: hsl(201, 11%, 66%);
+      margin-bottom: 0px;
+  
+     }
+     .copyr{
+      margin-top: 50px;
+      display: inline-flex;
+      height:150px;
+      width:40%;  
+     }
+     .copyr p{
+      padding:20px;
+
+     }
+     .copy1{
+      display: flex;
+      flex-direction: column;
+      margin-right: 30px;
+     }
+     .copyright1{
+      margin-top: 70px;
+      font-size: 80px;
+      color: hsl(171, 66%, 44%);
+      margin-right: 200px;
+    
+      
+     }
+     .footer img{
+     padding:10px;
+     }
+
+     .icon{
+      margin-left: 200px;
+      margin-top: 90px;
+      
+     }
+     .detail h2{
+      color:hsl(210, 10%, 33%);
+     }
+  </style>
+</head>
+<body>
+  <div class="main">
+    <div class="header">
+      <p class="copyright">&#169;</p>
+      <h1>A history of everything you copy</h1>
+      <pre style="line-height: 15px;">Clipboard allows you to track and organize everything you copy. Instantly
+      access your clipboard on all your devices.
+      </pre>
+      <div class="buttons">
+        <button class="button1">Download for ios</button>
+        <button class="button2">Download for Mac</button>
+      </div>
+   </div>
+
+   <div class="section">
+      <h2>Keep track of your snippets</h2>
+      <pre style="line-height: 15px;">
+        Clipboard instantly stores any item you copy in the cloud,meaning you can access 
+        your snippets immediately on all your devices. Our Mac and iOS apps will help you
+        organize everything.
+      </pre>
+
+   </div>
+
+   <div class="section1">
+    <img src="images/image-computer.png" height="500px" width="50%">
+    <div class="details-1">
+      <h3>Quick Search</h3>
+      <pre>Easily search your snippets by content,
+category, web address, application, and more.</pre>
+    </div>
+    <div class="details-2">
+      <h3>iCloud Sync</h3>
+      <pre>Instantly saves and syncs snippets across all
+our devices.</pre>
+    </div>
+    <div class="details-3">
+      <h3>Complete History</h3>
+      <pre>Retrieve any snippets from the first moment
+you started using the app.</pre>
+    </div>
+   </div>
+   <div class="section2">
+    <h1>Access Clipboard anywhere</h1>
+    <pre>
+      Whether you’re on the go, or at your computer, you can access all your Clipboard 
+      snippets in a few simple clicks.</pre>
+      <img src="images/image-devices.png" alt="device" >
+   </div>
+   <div class="section3">
+    <h1>  Supercharge your workflow</h1>
+    <p>We’ve got the tools to boost your productivity.</p>
+    <div class="detail">
+    <div class="blacklists">
+      <img src="images/icon-blacklist.svg" alt="blacklist">
+      <h2>Create blacklists</h2>
+      <p>Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p>
+    </div>
+    <div class="plain">
+      <img src="images/icon-text.svg">
+      <h2>Plain text snippets</h2>
+      <p>Remove unwanted formatting from copied text for a consistent look.</p>
+    </div>
+    <div class="sneak">
+      <img src="images/icon-preview.svg" alt="Sneak preview">
+      <h2>Sneak preview</h2>
+      <p>Quick preview of all snippets on your Clipboard for easy access.</p>
+    </div>
+  </div>
+   </div>
+   <div class="company">
+    <img src="images/logo-google.png" alt="logo-google">
+    <img src="images/logo-ibm.png" alt="logo-ibm">
+    <img src="images/logo-microsoft.png" alt="logo-microsoft">
+    <img src="images/logo-hp.png" alt="logo-hp">
+    <img src="images/logo-vector-graphics.png" aly="logo-vector-graphics">
+
+   </div>
+   <div class="clipboard">
+    <h1>Clipboard for iOS and Mac OS</h1>
+    <pre>Available for free on the App Store. Download for Mac or iOS, sync with iCloud and
+       you’re ready to start adding to your clipboard.</pre>
+       <div class="buttons">
+        <button class="button1">Download for ios</button>
+        <button class="button2">Download for Mac</button>
+      </div>
+   </div>
+   <div class="footer">
+    <p class="copyright1">&#169;</p>
+    <div class="copyr">
+      <div class="copy1">     
+        <p> FAQs</p>
+        <p>Contact Us</p>
+      </div>
+        <div class="copy2">
+        <p>Privacy Policy</p>
+      
+        <p>Press Kit</p>
+      </div>
+        <p>Install Guide</p>
+    </div>
+    <div class="icon">
+    <img src="images/icon-facebook.svg" alt="icon-facebook">
+ 
+    <img src="images/icon-twitter.svg " alt="icon-twitter">
+    <img src="images/icon-instagram.svg" alt="icon-instagram">
+  </div>
+    
+   </div>
+
+  </div>
+</body>
+</html>
